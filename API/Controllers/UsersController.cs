@@ -22,7 +22,7 @@ public class UsersController : ControllerBase
     {
         var users = await _context.Users.ToListAsync();
         return users;
-    }
+    } 
 
     [HttpGet("{id}")]
 
